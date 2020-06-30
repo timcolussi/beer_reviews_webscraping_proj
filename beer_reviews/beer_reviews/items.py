@@ -11,4 +11,17 @@ import scrapy
 class BeerReviewsItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    score = scrapy.Field()
+    aroma = scrapy.Field()
+    appearance = scrapy.Field()
+    flavor = scrapy.Field()
+    mouthfeel = scrapy.Field()
+    style = scrapy.Field()
+    ABV = scrapy.Field()
+    IBU = scrapy.Field()
+    brewers_comments = scrapy.Field()
+    panel_comments = scrapy.Field()
+    editors_comments = scrapy.Field()
+    
+
